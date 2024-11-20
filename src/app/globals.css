@@ -1,21 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", serif;
+  font-style: normal;
 }
+
+@layer components {
+  .container-xl {
+    @apply relative mx-auto px-[8%] max-w-full xl:max-w-7xl;
+  }
+
+  .bottom-hover {
+    @apply absolute bottom-[6.25%] border-solid left-0 w-full border-b-[1px] border border-white opacity-25;
+  }
+
+  .header{
+   @apply absolute font-semibold text-7xl leading-[120%] text-;
+  }
+}
+
+
+/* 
+position: absolute;
+width: 330px;
+height: 32px;
+left: 0px;
+top: 161px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 32px;
+color: #002331; 
+*/
+
+
