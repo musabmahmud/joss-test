@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const NavBar = () => {
 
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
 
     return (
         <nav className={`flex justify-between z-10 items-center py-[30px] text-white ${open ? "hidden" : "block"}`}>
@@ -26,13 +26,13 @@ const NavBar = () => {
                     <Link href="#LookBook">LookBook</Link>
                 </li>
             </ul>
-            <Link href="/">
-                <Image
-                    src={Logo}
-                    height={50}
-                    alt="Picture of the author"
-                />
-            </Link>
+            {/* // <Link href="/">
+            //     <Image
+            //         src={Logo}
+            //         height={50}
+            //         alt="Picture of the author"
+            //     />
+            // </Link> */}
             <ul className='flex space-x-[70px]'>
                 <li>
                     <Link href="#Sustainability">Sustainability</Link>

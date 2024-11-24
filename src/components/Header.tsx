@@ -18,7 +18,7 @@ const Header = () => {
 
             <div className="z-10 mx-auto container">
                 <div className='bottom-0 left-0 transform translate-y-3/4'>
-                    <h1 className='max-w-[970px] font-semibold text-[90px] text-white leading-[90px]'>A trusted place for your multi-board needs.</h1>
+                    <h1 className='max-w-[970px] text-top'>A trusted place for your multi-board needs.</h1>
                     <Link href="/" className='inline-flex relative items-center gap-3 opacity-75 pt-10 pb-3 text-white text-xl leading-5'>
                         <div className='bottom-hr' />
                         <span>Inquiry now</span>

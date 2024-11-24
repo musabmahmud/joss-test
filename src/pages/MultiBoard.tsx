@@ -14,35 +14,40 @@ const MultiBoard = () => {
             <div className='relative bg-ctm-yellow-dark'>
                 <div className='pt-100 pb-[112px] container-bg'>
                     <h1 className='text-header'>Expect elegance with <br /><span className='text-ctm-sky'>BOARD’s</span> multi-boards</h1>
-                    <div className="inline-flex flex-col justify-center items-center gap-4 pt-20">
-                        <Image
-                            src={slider1}
-                            height={50}
-                            width={50}
-                            alt="Picture of the author"
-                            className='border-1 border-ctm-dark rounded-full'
-                        />
-                        <Image
-                            src={slider1}
-                            height={50}
-                            width={50}
-                            alt="Picture of the author"
-                            className='border-1 border-ctm-dark rounded-full'
-                        />
-                        <Image
-                            src={slider1}
-                            height={50}
-                            width={50}
-                            alt="Picture of the author"
-                            className='border-1 border-ctm-dark rounded-full'
-                        />
-                        <Image
-                            src={slider1}
-                            height={100}
-                            width={100}
-                            alt="Picture of the author"
-                            className='border-4 border-ctm-sky rounded-full'
-                        />
+                    <div className="relative">
+                        <div className="inline-flex flex-col justify-center items-center gap-4 pt-20 overflow-auto">
+                            <Image
+                                src={slider1}
+                                height={50}
+                                width={50}
+                                alt="Picture of the author"
+                                className='border-1 border-ctm-dark rounded-full'
+                            />
+                            <Image
+                                src={slider1}
+                                height={50}
+                                width={50}
+                                alt="Picture of the author"
+                                className='border-1 border-ctm-dark rounded-full'
+                            />
+                            <Image
+                                src={slider1}
+                                height={50}
+                                width={50}
+                                alt="Picture of the author"
+                                className='border-1 border-ctm-dark rounded-full'
+                            />
+                            <Image
+                                src={slider1}
+                                height={100}
+                                width={100}
+                                className='border-4 border-ctm-sky rounded-full'
+                                alt="Picture of the author"
+                            />
+                        </div>
+                        <div className='bottom-[47px] left-[100px] z-10 absolute border-[1.5px] border-ctm-sky w-full h-auto'></div>
+                        <div className='bottom-[44px] left-[460px] z-30 absolute bg-ctm-sky rounded-full w-2 h-2'></div>
+                        <div className="top-[80px] bg-multiboard-right left-[370px] z-20 absolute bg-no-repeat bg-center w-full h-[750px]" />
                     </div>
                     <div className='pt-20 w-[326px]'>
                         <h3 className='mb-5 font-semibold text-2xl leading-8'>Superior Durability</h3>
@@ -58,11 +63,10 @@ const MultiBoard = () => {
                             <BsArrowRightShort size={25} />
                         </Link>
                     </div>
-                    <div className="right-0 bottom-0 left-0 z-10 absolute bg-multiboard-bg bg-no-repeat bg-center w-full h-[764px]" />
-                    <div className="bg-multiboard-right right-0 -bottom-[0px] left-0 z-10 absolute bg-no-repeat bg-right h-[750px]" />
+                    <div className="right-0 bottom-0 left-0 z-10 absolute bg-multiboard-bg bg-no-repeat bg-bottom w-full h-full" />
                 </div>
             </div>
-            <div className='relative bg-gradient-to-b from-ctm-yellow-dark to-white h-[200px]' />
+            <div className='bg-gradient-to-b from-ctm-yellow-dark to-white h-[200px]' />
         </>
     )
 }

@@ -16,7 +16,9 @@ export default {
         'ctm-sky': '#00A5E3',
         'ctm-yellow-dark': '#EEEDE9',
         'ctm-dark': '#002331',
-        'ctm-font-black': '#1D1D1D' 
+        'ctm-font-black': '#1D1D1D',
+        'ctm-gray': '#F6F6F6',
+        'ctm-gray-border': '#D9D9D9',
       },
       screens: {
         'dl': '1170'
@@ -28,6 +30,8 @@ export default {
         'board-top': "url('/assets/board/container.png')",
         'multiboard-bg': "url('/assets/multiboard/bg.png')",
         'multiboard-right': "url('/assets/multiboard/right.png')",
+        'first-banner': "url('/assets/banner/bg-1.png')",
+        'board-banner': "url('/assets/boardbanner/bg.png')",
       },
     },
   },
